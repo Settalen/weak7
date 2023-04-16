@@ -1,0 +1,272 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container,
+.conteiner_main {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.menu__center {
+    margin: 105px;
+
+}
+
+.head {
+    position: absolute;
+    margin: 0;
+    padding: 65px;
+    left: 300px;
+    top: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 106px;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.im {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    border: 1px solid #111010;
+    border-radius: 20px;
+}
+
+.text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 83px;
+}
+
+.lorem_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+.bestsellers {
+    display: grid;
+    padding: 75px;
+    height: 751px;
+    background: #F1EBE4;
+}
+
+.best {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+}
+
+.category__main {
+    display: grid;
+    height: 401.25px
+}
+
+.category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 34px;
+}
+
+.stars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 160px;
+}
+
+.star {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #111010;
+
+}
+
+.tx {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    text-align: center;
+
+    color: #111010;
+
+}
+
+.st {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.reviews {
+    height: 180px;
+    background: #FFDB5B;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 101px;
+    padding: 122px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #111010;
+
+}
+
+.fiol {
+    height: 592px;
+    background: #CAB5EB;
+}
+
+
+
+.subs {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #111010;
+}
+
+
+.down {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    right: -301px;
+}
+
+.down__menu {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    color: #111010;
+    height: 222px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.uyt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.email {
+    box-sizing: border-box;
+
+    height: 64px;
+    width: 304px;
+    right: 19.83%;
+    top: 4.84px;
+
+    background: #FFFFFF;
+    border: 1px solid #111010;
+    border-radius: 20px;
+
+}
+
+.send {
+    width: 112px;
+    height: 74px;
+    left: calc(50% - 112px/2 + 133.4px);
+    top: calc(50% - 74px/2 + 0.05px);
+
+    background: #FFDB5B;
+    border: 1px solid #111010;
+    border-radius: 1600px;
+    cursor: pointer;
+}
+
+.a__footer {
+    position: relative;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #111010;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .conteiner {
+        max-width: 970px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .conteiner {
+        max-width: 750px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .conteiner {
+        max-width: none;
+    }
+
+}
